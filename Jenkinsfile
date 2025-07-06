@@ -25,4 +25,7 @@ pipeline {
     }
 
   }
+  environment {
+    ChromeDriverVersion = 'ChromeDriver 114.0.5735.90'
+  }
 }
