@@ -25,7 +25,7 @@ pipeline {
     }
 
   }
-  environment {
-    DummyChromeDriverVersion = 'ChromeDriver 114.0.5735.90'
-  }
+  // environment {
+  //   DummyChromeDriverVersion = 'ChromeDriver 114.0.5735.90'
+  // }
 }
