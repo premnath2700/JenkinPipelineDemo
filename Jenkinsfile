@@ -19,9 +19,6 @@ pipeline {
     }
 
     stage('Deploy') {
-      when {
-        branch 'main'
-      }
       steps {
         echo 'Deploying the Application in server'
       }
