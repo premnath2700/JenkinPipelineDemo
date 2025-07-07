@@ -1,6 +1,11 @@
 pipeline {
   agent any
   stages {
+    stage('checkout') {
+      steps {
+        git 'https://github.com/premnath2700/SpringBootJenkinsDemo.git'
+      }
+    }
     stage('Build') {
       parallel {
         stage('Build') {
